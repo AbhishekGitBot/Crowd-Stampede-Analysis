@@ -61,7 +61,7 @@ Motion Analysis: Computes average speed and direction per tracked object to dete
 
 Installation & Usage
 1. Clone Repository
-   git clone https://github.com/yourusername/CrowdStampedeAnalysis.git
+   git clone (https://github.com/AbhishekGitBot/Crowd-Stampede-Analysis.git)
    cd CrowdStampedeAnalysis
 2. Setup Environment
    pip install ultralytics opencv-python pandas matplotlib seaborn tqdm deep_sort_realtime supervision filterpy

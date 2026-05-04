@@ -66,9 +66,8 @@ Installation & Usage
 2. Setup Environment
    pip install ultralytics opencv-python pandas matplotlib seaborn tqdm deep_sort_realtime supervision filterpy
 3. Project Structure Setup
-    # Run detection + tracking
-     python step2_detection.py
-     python step3_tracking.py
+    Place videos in datasets/videos/
+    Run Step1_DataPreparation.ipynb to extract frames and metadata.
 4. Run Pipeline
     # Run detection + tracking
     python step2_detection.py

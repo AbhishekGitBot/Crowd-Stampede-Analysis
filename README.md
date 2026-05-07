@@ -81,8 +81,8 @@ Add real-time streaming support using RTSP/FFmpeg.
 Develop multi-camera fusion and 3D crowd reconstruction.
 
 
-Contact & Portfolio
-Built by Abhishek — AI Research Engineer specializing in Computer Vision
+Contact & Portfolio:
 
+Built by Abhishek — AI Research Engineer 
 LinkedIn:(https://www.linkedin.com/in/abhiisheksharrma/)
 Email: sharrmaabhishek1@gmail.com

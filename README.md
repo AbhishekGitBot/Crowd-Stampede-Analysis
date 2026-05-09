@@ -1,4 +1,4 @@
-# 👁️ CrowdStampedeAnalysis
+#  CrowdStampedeAnalysis
 ### *An end-to-end real-time computer vision pipeline that fuses object detection, multi-object tracking, and density regression to quantify crowd risk — before a stampede happens.*
 
 ---

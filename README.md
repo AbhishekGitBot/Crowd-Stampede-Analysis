@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 **The Problem:** Crowd disasters are among the most preventable yet deadliest public safety failures. Events like the 2010 Love Parade disaster and the 2022 Itaewon crush claim lives not from sudden chaos, but from the gradual, invisible accumulation of dangerous density and directional flow — conditions that are entirely detectable with the right instrumentation.
 
@@ -15,7 +15,7 @@ This serves as a technical proof-of-work demonstrating mastery of the full CV st
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Automated Data Pipeline** — Ingests raw video files, extracts per-frame metadata (resolution, FPS, duration), and organizes outputs into structured directories for fully reproducible experimentation.
 - **YOLOv8 Person Detection** — Real-time bounding box inference using `ultralytics`, filtered to the `person` class with configurable confidence thresholds. Outputs annotated frames and per-frame detection CSVs.
@@ -28,7 +28,7 @@ This serves as a technical proof-of-work demonstrating mastery of the full CV st
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Tools & Libraries |
 |---|---|
@@ -46,7 +46,7 @@ This serves as a technical proof-of-work demonstrating mastery of the full CV st
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 The system executes as a **5-stage sequential pipeline**, where each stage enriches the data representation before passing it downstream:
 
@@ -164,7 +164,7 @@ where:  ρ̄  = normalized crowd density       w₁ = 0.35
         P  = normalized pressure index       w₄ = 0.20
 ```
 
-Alert classification: `SRI < 0.3` → 🟢 LOW | `0.3–0.6` → 🟡 MODERATE | `0.6–0.85` → 🟠 HIGH | `> 0.85` → 🔴 CRITICAL
+Alert classification: `SRI < 0.3` →  LOW | `0.3–0.6` →  MODERATE | `0.6–0.85` →  HIGH | `> 0.85` →  CRITICAL
 
 Weights were empirically calibrated on incident sequences from the UMN dataset.
 
@@ -238,7 +238,7 @@ outputs/
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CrowdStampedeAnalysis/
@@ -264,7 +264,7 @@ CrowdStampedeAnalysis/
 
 ---
 
-## 📊 Benchmark Results
+##  Benchmark Results
 
 Evaluated on the **UMN Crowd Dataset** (3 scenes, 7,740 frames):
 
@@ -279,7 +279,7 @@ Evaluated on the **UMN Crowd Dataset** (3 scenes, 7,740 frames):
 
 ---
 
-## 🔭 Future Roadmap
+##  Future Roadmap
 
 **1. Transformer-Based Density Estimation (P2PNet / DM-Count)**
 Replace CSRNet/MCNN with point-supervised transformer architectures like P2PNet or the density-map-free DM-Count model. These approaches eliminate the need for density map ground truth annotation and achieve state-of-the-art MAE on ShanghaiTech-A/B and UCF-QNRF benchmarks. This would substantially improve accuracy in ultra-high density scenarios (>500 persons/frame) where regression models currently degrade.
@@ -292,20 +292,20 @@ For venues with overlapping camera fields of view, implement homography-based vi
 
 ---
 
-## 📄 License
+##  License
 
 This project is released under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 👤 Author & Contact
+##  Author & Contact
 
 **Abhishek Sharma**
 *AI Research Engineer — Computer Vision & Agentic Systems*
 
-- 🔗 **LinkedIn:** (https://www.linkedin.com/in/abhiisheksharrma/)
-- 📧 **Email:** sharrmaabhishek1@gmail.com
-- 🐙 **GitHub:** (https://github.com/AbhishekGitBot)
+-  **LinkedIn:** (https://www.linkedin.com/in/abhiisheksharrma/)
+-  **Email:** sharrmaabhishek1@gmail.com
+-  **GitHub:** (https://github.com/AbhishekGitBot)
 
 
 ---
